@@ -40,7 +40,7 @@ open http://localhost:8080
 With Webpack's ES6 module syntax:
 
 ```
-import {registerComponent} from 'aframe-core';
+import {aframeCore} from 'aframe';
 import exampleComponent from 'aframe-example-component';
 registerComponent('example', exampleComponent.component);
 ```
