@@ -45,14 +45,21 @@
     "eslint-plugin-react": "^3.11.3",
     "eventsource-polyfill": "^0.9.6",
     "express": "^4.13.3",
+    "ghpages": "0.0.3",
     "rimraf": "^2.4.3",
     "webpack": "^1.12.9",
     "webpack-dev-middleware": "^1.4.0",
     "webpack-hot-middleware": "^2.6.0"
   },
   "dependencies": {
-    "ghpages": "0.0.3",
+    "aframe": "^0.1.2",
+    "aframe-react": "^1.1.0",
+    "aframe-text-component": "^0.1.0",
+    "css-loader": "^0.23.1",
+    "html-loader": "^0.4.3",
+    "json-loader": "^0.5.4",
     "react": "^0.14.3",
-    "react-dom": "^0.14.3"
+    "react-dom": "^0.14.3",
+    "style-loader": "^0.13.0"
   }
 }
