@@ -9,6 +9,8 @@ see [react-transform-boilerplate](https://github.com/gaearon/react-transform-boi
 
 ![react-transform-boilerplate](https://cloud.githubusercontent.com/assets/1539088/11611771/ae1a6bd8-9bac-11e5-9206-42447e0fe064.gif)
 
+**Demo: [http://meta-meta.github.io/aframe-react-transform-boilerplate/](http://meta-meta.github.io/aframe-react-transform-boilerplate/)**
+
 ## Installation
 
 ```bash
