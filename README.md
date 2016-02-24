@@ -42,7 +42,7 @@ With Webpack's ES6 module syntax:
 ```
 import {aframeCore} from 'aframe';
 import exampleComponent from 'aframe-example-component';
-registerComponent('example', exampleComponent.component);
+aframeCore.registerComponent('example', exampleComponent.component);
 ```
 
 ## :globe_with_meridians: Publishing to GitHub Pages
