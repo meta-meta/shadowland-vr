@@ -6,6 +6,8 @@ var config = require('./webpack.config.dev');
 var app = express();
 var compiler = webpack(config);
 
+app.use(express.static(__dirname + '/static'));
+
 app.use(require('webpack-dev-middleware')(compiler, {
   noInfo: true,
   publicPath: config.output.publicPath
@@ -14,7 +16,7 @@ app.use(require('webpack-dev-middleware')(compiler, {
 app.use(require('webpack-hot-middleware')(compiler));
 
 app.get('*', function(req, res) {
-  res.sendFile(path.join(__dirname, 'index.html'));
+  res.sendFile(path.join(__dirname, 'static/index.html'));
 });
 
 app.listen(8080, '0.0.0.0', function(err) {

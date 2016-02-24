@@ -31,6 +31,7 @@ export class App extends Component {
   render() {
     return (
       <div>
+        <img src="images/test.jpg" alt=""/>
         <Counter increment={1} color={NICE} />
         <Counter increment={5} color={SUPER_NICE} />
       </div>
