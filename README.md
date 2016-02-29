@@ -48,10 +48,7 @@ aframeCore.registerComponent('example', exampleComponent.component);
 Update package.json with the url for your repo:
 
 ```json
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/my-github-username/my-repo.git"
-  },
+  "repository": "https://github.com/my-github-username/my-repo.git"
 ```
 
 Run:
