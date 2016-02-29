@@ -21,7 +21,7 @@ npm start
 open http://localhost:8080
 ```
 
-:iphone: Point your device's browser to your local IP, assuming you are on the same LAN. (See console output for IP address)
+> :iphone: **Mobile pro tip:** Upon starting the development server, the URL will be logged to the console. Load that URL from a browser on your mobile device. (If your mobile phone and computer are not on the same LAN, consider using [ngrok](https://ngrok.com/) for local development and testing. [Browsersync](https://www.browsersync.io/) is also worth a gander.)
 
 ## A-Frame
 [A-Frame Project Page](https://aframe.io/)
