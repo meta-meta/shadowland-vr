@@ -24,15 +24,13 @@ open http://localhost:8080
 > :iphone: **Mobile pro tip:** Upon starting the development server, the URL will be logged to the console. Load that URL from a browser on your mobile device. (If your mobile phone and computer are not on the same LAN, consider using [ngrok](https://ngrok.com/) for local development and testing. [Browsersync](https://www.browsersync.io/) is also worth a gander.)
 
 ## A-Frame
-[A-Frame Project Page](https://aframe.io/)
 
-[A-Frame Docs](https://aframe.io/docs/guide/)
-
-[Awesome A-Frame](https://github.com/aframevr/awesome-aframe)
-
-[A-Frame source](https://github.com/aframevr/aframe)
-
-[aframe-react](https://github.com/ngokevin/aframe-react)
+* [A-Frame Project Page](https://aframe.io/)
+* [A-Frame Docs](https://aframe.io/docs/guide/)
+* [Awesome A-Frame](https://github.com/aframevr/awesome-aframe)
+* [A-Frame source](https://github.com/aframevr/aframe)
+* [aframe-react](https://github.com/ngokevin/aframe-react)
+* [Made with A-Frame](https://aframevr.tumblr.com/)
 
 
 ### Registering Third-party A-Frame components
