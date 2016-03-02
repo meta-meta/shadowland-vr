@@ -1,16 +1,11 @@
 var path = require('path');
 var webpack = require('webpack');
 
-module.exports = {
+module.exports = Object.assign({}, require('./webpack.config.common'), {
   devtool: 'source-map',
   entry: [
     './src/index'
   ],
-  output: {
-    path: path.join(__dirname, 'dist'),
-    filename: 'bundle.js',
-    publicPath: '/'
-  },
   plugins: [
     new webpack.optimize.OccurenceOrderPlugin(),
     new webpack.DefinePlugin({
@@ -23,24 +18,5 @@ module.exports = {
         warnings: false
       }
     })
-  ],
-  module: {
-    loaders: [{
-      test: /\.jsx?/,
-      loaders: ['babel'],
-      include: path.join(__dirname, 'src')
-    },
-      {
-        test: /\.css$/,
-        loader: 'style-loader!css-loader?-svgo'
-      },
-      {
-        test: /\.json$/,
-        loader: 'json-loader'
-      },
-      {
-        test: /\.html$/,
-        loader: "html"
-      }]
-  }
-};
+  ]
+});
