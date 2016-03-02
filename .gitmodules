@@ -1,0 +1,6 @@
+[submodule "aframe-react"]
+	path = aframe-react
+	url = https://github.com/meta-meta/aframe-react
+[submodule "aframe"]
+	path = aframe
+	url = https://github.com/meta-meta/aframe
