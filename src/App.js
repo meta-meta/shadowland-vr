@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import 'aframe';
+import 'util/shorthand';
 import {Scene, Entity} from 'aframe-react';
 import Camera from './components/Camera'
 import Image from './components/Image'
