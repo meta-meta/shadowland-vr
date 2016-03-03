@@ -11,7 +11,7 @@ module.exports = {
     loaders: [{
       test: /\.jsx?/,
       loaders: ['babel'],
-      include: [path.join(__dirname, 'src'), path.join(__dirname, 'aframe/src'), path.join(__dirname, 'aframe-react/src')]
+      include: [path.join(__dirname, 'src'), path.join(__dirname, 'aframe-react/src')]
     },
     {
       test: /\.css$/,
@@ -30,8 +30,8 @@ module.exports = {
     root: path.resolve(__dirname),
     extensions: ['', '.js', '.jsx', '.scss'],
     alias: {
-      aframe: 'aframe',
-      'aframe-react': 'aframe-react',
+      aframe: 'aframe/src',
+      'aframe-react': 'aframe-react/src',
     }
   }
 };
