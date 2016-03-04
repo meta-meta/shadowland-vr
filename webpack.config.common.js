@@ -28,7 +28,7 @@ module.exports = {
   },
   resolve: {
     root: path.resolve(__dirname),
-    extensions: ['', '.js', '.jsx', '.scss'],
+    extensions: ['', '.js', '.jsx', '.scss', '.json'],
     alias: {
       aframe: 'aframe/src',
       'aframe-react': 'aframe-react/src',
