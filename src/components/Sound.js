@@ -17,7 +17,7 @@ class Sound extends React.Component {
         this.sound.play();
       }
 
-      el.addEventListener('onended', () => {
+      el.addEventListener('sound-ended', () => {
         this.props.onEnded();
         this.isPlaying = false;
       });
