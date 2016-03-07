@@ -39,9 +39,6 @@ export class App extends Component {
     };
 
     Leap.loop({background: true}, (frame) => {
-        if (frame.hands.length) {
-          //debugger;
-        }
         _.each(frame.hands, hand => this.setState({
           [hand.type]: {
             confidence: hand.confidence,
