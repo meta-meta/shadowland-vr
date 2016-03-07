@@ -17,7 +17,15 @@ class LeapMotion extends React.Component {
   componentDidMount() {
     const cursor = this.props.cursor;
 
-    Leap.loop({background: true}, (frame) => {
+    Leap.loop({
+        background: true,
+        host: window.location.hostname,
+      // to allow connection to another computer on the network:
+      // disable firewall on port 6437
+      // set websockets_allow_remote in leap service config:
+      // https://developer.leapmotion.com/documentation/cpp/devguide/Leap_Configuration.html#websocket-options
+
+      }, (frame) => {
         _.each(frame.hands, hand => cursor.refine(hand.type).set({
           confidence: hand.confidence,
           fingers: hand.fingers.map(finger => arrToV3(finger.tipPosition).divideScalar(1000)),
