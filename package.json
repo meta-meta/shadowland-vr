@@ -57,6 +57,7 @@
     "css-loader": "^0.23.1",
     "html-loader": "^0.4.3",
     "json-loader": "^0.5.4",
+    "leapjs": "^0.6.4",
     "lodash": "^4.5.1",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
