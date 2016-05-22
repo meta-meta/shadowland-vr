@@ -56,6 +56,7 @@
     "aframe-text-component": "^0.1.0",
     "css-loader": "^0.23.1",
     "html-loader": "^0.4.3",
+    "js-atom": "^0.4.0",
     "json-loader": "^0.5.4",
     "leapjs": "^0.6.4",
     "leapjs-plugins": "^0.1.11",
