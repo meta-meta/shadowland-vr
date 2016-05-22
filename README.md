@@ -14,8 +14,15 @@ see [react-transform-boilerplate](https://github.com/gaearon/react-transform-boi
 ## Installation
 
 ```bash
-git clone https://github.com/meta-meta/aframe-react-transform-boilerplate.git
-cd aframe-react-transform-boilerplate
+git clone https://github.com/meta-meta/aframe-react-transform-boilerplate.git my-aframe-react-project
+cd my-aframe-react-project
+git submodule update --init
+cd aframe
+npm install
+cd ..
+cd aframe-react
+npm install
+cd ..
 npm install
 npm start
 open http://localhost:8080
